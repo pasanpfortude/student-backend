@@ -1,0 +1,12 @@
+
+{
+    "type": "postgres",
+    "host": "172.17.0.4",
+    "port": 5432,
+    "username": "root",
+    "password": "root",
+    "database": "students",
+    "entities": ["dist/**/models/*.model{.ts,.js}"],
+    "synchronize": true
+  }
+  
